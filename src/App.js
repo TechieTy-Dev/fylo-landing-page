@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App bg-white">
       {/* HEADER */}
-      <header className="grid grid-cols-2 lg:p-6  p-4 items-center">
+      <header className="grid grid-cols-2 lg:pt-12  p-4 items-center">
         {/* LOGO */}
-        <img className="w-[45%] ml-2 lg:w-[20%] lg:ml-32" src={logo} alt="logo"/>
+        <img className="w-[45%] ml-2 lg:w-[22.5%] lg:ml-32" src={logo} alt="logo"/>
         {/* NAV-LINKS */}
         <ul className="flex gap-8 lg:justify-end lg:mr-32 lg:gap-12">
           <li className="hover:text-text hover:cursor-pointer">Features</li>
@@ -19,11 +19,11 @@ function App() {
       {/* MAIN */}
       <main className="grid grid-cols-1 w-[100%] mx-auto">
         {/* HERO/SIGNUP SECTION */}
-        <section className="w-[80%] mx-auto lg:grid lg:grid-cols-2 align-middle items-center justify-center" >
+        <section className="w-[80%] lg:mt-12 mx-auto lg:grid lg:grid-cols-2 align-middle items-center justify-center" >
           <div className="order-2 lg:ml-8">
-        <img src={file} alt="illustration-1" className="mt-24 lg:mt-12 mb-4"/>
+        <img src={file} alt="illustration-1" className="mt-24 lg:mt-12 mb-4 "/>
         </div>
-        <div className='order-1 lg:text-left'>
+        <div className='order-1 lg:mt-16 lg:text-left'>
           {/* Hero Heading */}
         <h1 className="text-heading text-3xl my-8 lg:w-[100%] lg:tracking-wide lg:text-4xl">  All your files in one secure location, accessible anywhere.</h1>
         {/* Hero Description */}
@@ -40,13 +40,13 @@ function App() {
 </section>
 {/* DESCRIPTIVE SECTION */}
 {/* BG Container */}
-<div className="bg-area w-[100%] h-auto mt-24">
+<div className="bg-area w-[100%] h-auto mt-24 lg:mt-36 lg:pb-16">
 <section className='w-100 lg:grid lg:grid-cols-2'>
   <div className='order-2'>
     {/* Illustration Img */}
   <img src={group} alt="illustration-2" className="mt-24 mb-16" />
   </div>
-  <div className="w-[80%] mx-auto lg:order-1 lg:text-left">
+  <div className="w-[80%] lg:w-[70%] mx-auto lg:order-1 lg:text-left">
   <h2 className="font-bold text-xl mt-24 lg:text-3xl"> Stay productive, wherever you are</h2>
   <p className=" text-left lg:mt-6 my-8 text-text tracking-wide">  Never let location be an issue when accessing your files. Fylo has you 
   covered for all of your file storage needs.
@@ -55,14 +55,14 @@ function App() {
   Securely share files and folders with friends, family and colleagues for 
   live collaboration. No email attachments required!</p>
   {/* Green Text Link */}
-  <div className="w-[50%] mx-auto my-4 hover:opacity-70 hover:cursor-pointer lg:mx-0 lg:w-[35%]">
+  <div className="w-[50%] mx-auto my-4 hover:opacity-70 hover:cursor-pointer lg:mx-0 lg:w-[40%]">
     <p className=" text-cyan flex items-center lg:text-left">
   See how Fylo works <img src={arrow} alt="arrow" className="ml-1" /></p>
   <hr className="border-cyan w-[80%] border-2 border-t-0 mt-1" />
   </div>
   {/* QUOTES CARD */}
 <section className="mt-12 mb-24 w-[100%] mx-auto">
-  <div className="bg-white shadow-lg rounded-sm p-5 lg:w-[65%]">
+  <div className="bg-white shadow-lg rounded-sm p-5 lg:w-[75%]">
 {/* Quotes */}
     <img src={quotes} alt='quotes' className="my-2 w-4 h-4" />
     {/* Card Description */}
@@ -87,7 +87,7 @@ function App() {
 
       </main>
       {/* EARLY ACCESS SECTION */}
-<section className="bg-text w-[100%] lg:grid lg:grid-cols-2 lg:p-6 ">
+<section className="bg-text w-[100%] lg:grid lg:justify-center lg:items-center lg:grid-cols-2 lg:py-12 ">
   <div className="lg:flex lg:flex-col lg:text-left ">
   <h2 className="font-bold tracking-wide text-grayblue text-xl pt-12 lg:text-2xl lg:ml-24"> Get early access today</h2>
   <p className="text-grayblue w-[75%] mx-auto tracking-wide leading-7 mt-6 mb-8"> It only takes a minute to sign up and our free starter tier is extremely generous. 
@@ -100,7 +100,7 @@ function App() {
   </form>
 </section>
 {/* FOOTER */}
-      <footer className="grid grid-cols-1 bg-heading w-100 text-grayblue w-[100%] text-left p-12 lg:grid-cols-4 lg:pt-20 lg:pb-16">
+      <footer className="grid grid-cols-1 bg-heading w-100 text-grayblue w-[100%] text-left p-12 lg:grid-cols-4 lg:pt-24 lg:pb-20">
         <div>
           {/* FOOTER LOGO */}
        <FooterLogo fill="white"/>

@@ -2,37 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-::-webkit-scrollbar{
-  width: 0px;
+::-webkit-scrollbar {
+	width: 0px;
 }
-body{
-  font-size: 1rem;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+body {
+	font-size: 1rem;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
 }
-.bg-area{
-  background: url('./images/bg-curve-mobile.svg');
-  background-position: top;
-  background-size: 400% 100%;
-  background-repeat: no-repeat;
+.bg-area {
+	background: url("./images/bg-curve-mobile.svg");
+	background-position: top;
+	background-size: 400% 100%;
+	background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 767px) {
-  .bg-area{
-    background: url('./images/bg-curve-desktop.svg');
-    background-position: top;
-    background-size: 400% 100%;
-    background-repeat: no-repeat;
-  }
+	.bg-area {
+		background: url("./images/bg-curve-desktop.svg");
+		background-position: top;
+		background-size: 400% 100%;
+		background-repeat: no-repeat;
+	}
 }
