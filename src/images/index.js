@@ -1,0 +1,13 @@
+export {default as avatar} from './avatar-testimonial.jpg'
+export {default as arrow} from './icon-arrow.svg'
+export {default as email} from './icon-email.svg'
+export {default as phone} from './icon-phone.svg'
+export {default as quotes} from './icon-quotes.svg'
+export {default as file} from './illustration-1.svg'
+export {default as group} from './illustration-2.svg'
+export {default as logo} from './logo.svg';
+export {default as facebook} from './icons8-facebook-f.svg';
+export {default as twitter} from './icons8-twitter.svg';
+export {default as ig} from './icons8-instagram.svg';
+export {default as desktop} from './bg-curve-desktop.svg';
+export {default as mobile} from './bg-curve-mobile.svg';
