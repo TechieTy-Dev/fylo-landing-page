@@ -94,7 +94,7 @@ function App() {
   If you have any questions, our support team would be happy to help you.</p>
   </div>
   {/* Early Access Form */}
-  <form className="flex flex-col w-[70%] mx-auto pb-24 lg:pb-0 lg:mt-24">
+  <form className="flex flex-col w-[70%] mx-auto pb-24 lg:pb-0">
     <input placeholder="email@example.com" className='p-2  lg:mb-4 mb-2 shadow-md' type="email" required/>
     <button className="bg-brightblue shadow-lg text-grayblue p-2 lg:w-[40%] hover:opacity-70">Get Started For Free</button>
   </form>
